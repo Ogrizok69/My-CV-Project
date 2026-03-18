@@ -49,6 +49,7 @@ li {
     height: 32px;
     padding: 0px;
 }
+
 li a:hover {
     color: #12f7d6;
 }
@@ -200,15 +201,47 @@ ul {
 .logo__textS {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-size: 50px;
     color: #12f7d6;
+    height: 75px;
 }
 
 .below__the__skills {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 75px;
+}
+
+.web__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 400px;
+}
+
+.web__dev__text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 200px;
+    height: 80px;
+    padding: 16px 24px;
+    background-color: #98faec;
+    color: #292f36;
+    border-radius: 10px;
+}
+
+.app__dev__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    padding: 16px 24px;
+    background-color: #98faec;
+    color: #292f36;
+    border-radius: 10px;
 }
