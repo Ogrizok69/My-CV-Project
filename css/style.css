@@ -189,6 +189,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     width: 880px;
+    margin: 50px;
     padding: 24px 40px;
     background-color: #292f36;
     border-radius: 40px;
@@ -244,4 +245,90 @@ ul {
     background-color: #98faec;
     color: #292f36;
     border-radius: 10px;
+}
+
+.html {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 40px;
+    background-color: #e54f26;
+    border-radius: 80px;
+}
+
+.css {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 40px;
+    background-color: #0c73b8;
+    border-radius: 80px;
+}
+
+.js {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 40px;
+    background-color: #e7a020;
+    border-radius: 80px;
+}
+
+.react {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 40px;
+    background-color: #28a9e0;
+    border-radius: 80px;
+}
+
+.html__css__js__react {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 70px;
+    margin: 0 240px;
+}
+
+.works {
+    background-image: url(/images/Works.png);
+}
+
+.logo__textW {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #12f7d6;
+}
+
+.below__the__works {
+    display: flex;
+    justify-content: center;
+}
+
+.works__view {
+    
+}
+
+.works__textWV {
+    display: flex;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.works__textWV:hover {
+    color: #12f7d6;
 }
