@@ -130,20 +130,24 @@ nav {
 
 .button {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 227px;
+    width: 190px;
     height: 56px;
     padding: 16px 32px;
-    background-color: #ffffff;
+    background-color: #292f36;
+    border-width: 2px;
+    border-color: #12f7d6;
+    color: #ffffff;
+    border-style: solid;
     border-radius: 32px;
     transition: 0.3s ease-in-out;
 }
 
 .button:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 0px 10px #cbcbcb;
+    transform: scale(0.98);
+    background-color: #12f7d6;
+    color: #000000;
 }
 
 h1 {
@@ -312,23 +316,114 @@ ul {
     justify-content: center;
     font-size: 50px;
     color: #12f7d6;
+    height: 75px;
 }
 
 .below__the__works {
     display: flex;
     justify-content: center;
+    height: 75px;
 }
 
 .works__view {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .works__textWV {
-    display: flex;
+    width: 100%;
+    text-align: center;
     font-size: 25px;
     transition: 0.3s ease-in-out;
+    height: 60px;
 }
 
 .works__textWV:hover {
     color: #12f7d6;
+}
+
+.works__img {
+    width: 750px;
+}
+
+.blogs {
+    background-color: #292f36;
+}
+
+.logo__textB {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    height: 75px;
+    color: #12f7d6;
+}
+
+.below__the__blogs {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+.blogs__view {
+    display: flex;
+}
+
+.blogs__read {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.blogs__web {
+    display: flex;
+    font-size: 50px;
+    color: #12f7d6;
+}
+
+.blogs__textBW {
+    transition: 0.3s ease-in-out;
+}
+
+.blogs__textBW:hover {
+    color: #12f7d6;
+}
+
+.blogs__stats {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.blogs__webdev__stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 24px;
+    padding: 4px 8px;
+    background-color: #43454d;
+    border-radius: 16px;
+    margin: 0 20px;
+}
+
+.blogs__text__stats {
+    margin: 0 20px;
+}
+
+.blogs__date__stats {
+    margin: 0 20px;
+}
+
+.blogs__time__stats {
+    margin: 0 20px;
+}
+
+.blogs__view__sub {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
