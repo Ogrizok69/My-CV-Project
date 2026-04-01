@@ -68,6 +68,7 @@ nav {
     align-items: center;
     background-color: #292f36;
     padding: 0px;
+    height: 500px;
 }
 
 .hero__profile {
@@ -89,6 +90,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     padding: 24px;
+    margin: 0 50px;
     background-color: #292f36;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -148,6 +150,30 @@ nav {
     transform: scale(0.98);
     background-color: #12f7d6;
     color: #000000;
+}
+
+.hero__textH {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero__hello {
+    font-size: 50px;
+}
+
+.hero__helloH {
+    height: 80px;
+}
+
+.hero__webdev {
+    height: 50px;
+}
+
+.hero__talk {
+    font-size: 35px;
+    color: #12f7d6;
 }
 
 h1 {
