@@ -30,6 +30,14 @@ header {
     align-items: center;
     background-color: #292f36;
     color: white;
+    position: fixed;
+    width: 1550px;
+    height: 50px;
+}
+
+.header__search {
+    border-radius: 10px;
+    padding: 3px;
 }
 
 .wrapper {
@@ -58,7 +66,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 170px;
     background-color: #292f36;
 }
 
@@ -169,6 +176,7 @@ nav {
 
 .hero__webdev {
     height: 50px;
+    width: 950px;
 }
 
 .hero__talk {
@@ -195,6 +203,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 800px;
 }
 
 .about__me__p {
@@ -227,6 +236,7 @@ ul {
 
 .skill {
     background-image: url(/images/Skills.png);
+    height: 550px;
 }
 
 .logo__textS {
@@ -335,6 +345,7 @@ ul {
 
 .works {
     background-image: url(/images/Works.png);
+    height: 1050px;
 }
 
 .logo__textW {
@@ -376,6 +387,7 @@ ul {
 
 .blogs {
     background-color: #292f36;
+    height: 550px;
 }
 
 .logo__textB {
@@ -450,6 +462,142 @@ ul {
 
 .blogs__view__sub {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
     padding: 25px;
+}
+
+.contact {
+    background-color: #1b1f23;
+    height: 600px;
+}
+
+.logo__textC {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    height: 75px;
+    color: #12f7d6;
+}
+
+.below__the__contact {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.sendM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 20px;
+    padding: 16px 40px;
+    color: #12f7d6;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 2px;
+    border-color: #12f7d6;
+    border-style: solid;
+}
+
+.enter__your {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 250px;
+    height: 100px;
+}
+
+.enter__nameC {
+    color: #12f7d6;
+    height: 30px;
+}
+
+.enter__nameCI {
+    background-color: #1b1f23;
+    border: 0;
+    border-bottom: solid #12f7d6 1px;
+    color: white;
+    padding: 3px;
+    width: 400px;
+}
+
+.enter__nameCI:focus {
+    outline: none;
+}
+
+.enter__emailC {
+    color: #12f7d6;
+    height: 30px;
+}
+
+.enter__emailCI {
+    background-color: #1b1f23;
+    border: 0;
+    border-bottom: solid #12f7d6 1px;
+    color: white;
+    padding: 3px;
+    width: 400px;
+}
+
+.enter__emailCI:focus {
+    outline: none;
+}
+
+.enter__yourM {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.enter__messageC {
+    color: #12f7d6;
+    height: 30px;
+}
+
+.enter__messageCI {
+    background-color: #1b1f23;
+    border: 0;
+    border-bottom: solid #12f7d6 1px;
+    color: white;
+    width: 910px;
+    padding: 3px;
+}
+
+.enter__messageCI:focus {
+    outline: none;
+}
+
+.contact__send__message {
+    display: flex;
+    justify-content: center;
+}
+
+.button__send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 56px;
+    padding: 16px 32px;
+    background-color: #1b1f23;
+    border-width: 2px;
+    border-color: #12f7d6;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 32px;
+    transition: 0.3s ease-in-out;
+}
+
+.button__send:hover {
+    transform: scale(0.98);
+    background-color: #12f7d6;
+    color: #000000;
 }
