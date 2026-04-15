@@ -28,16 +28,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #292f36;
     color: white;
     position: fixed;
     width: 1550px;
     height: 50px;
+    background-color: #292f36;
+    border-bottom: solid 1px #43454d;
 }
 
 .header__search {
     border-radius: 10px;
     padding: 3px;
+    margin-right: 75px;
 }
 
 .wrapper {
@@ -46,6 +48,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #292f36;
+
 }
 
 li {
@@ -56,6 +60,7 @@ li {
     width: 855px;
     height: 32px;
     padding: 0px;
+    color: #a8aab3;
 }
 
 li a:hover {
@@ -75,13 +80,15 @@ nav {
     align-items: center;
     background-color: #292f36;
     padding: 0px;
-    height: 500px;
+
 }
 
 .hero__profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 .hero__text {
@@ -90,6 +97,7 @@ nav {
     align-items: center;
     font-size: 70px;
     color: #12f7d6;
+    margin-top: 100px;
 }
 
 .profile {
@@ -99,8 +107,8 @@ nav {
     padding: 24px;
     margin: 0 50px;
     background-color: #292f36;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     border-width: 4px;
     border-color: #ffffff;
     border-style: solid;
@@ -116,6 +124,10 @@ nav {
     padding: 0px;
 }
 
+.AlexeyT {
+    color: #a8aab3;
+}
+
 .Alexeyy {
     display: flex;
     flex-direction: column;
@@ -123,7 +135,7 @@ nav {
     align-items: flex-start;
     width: 250px;
     height: 85px;
-    color: #ffffff;
+    color: #a8aab3;
     padding: 0px;
 }
 
@@ -177,6 +189,7 @@ nav {
 .hero__webdev {
     height: 50px;
     width: 950px;
+    color: #a8aab3;
 }
 
 .hero__talk {
@@ -203,7 +216,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 800px;
 }
 
 .about__me__p {
@@ -214,6 +226,8 @@ ul {
     width: 367px;
     padding: 16px 40px;
     font-size: 70px;
+    margin-left: 100px;
+    margin-bottom: 50px;
     background-color: #292f36;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -228,21 +242,32 @@ ul {
     justify-content: space-between;
     align-items: center;
     width: 880px;
-    margin: 50px;
+    margin-left: 100px;
     padding: 24px 40px;
     background-color: #292f36;
     border-radius: 40px;
+    color: #a8aab3;
+}
+
+.about__me__img {
+    display: flex;
+    width: 300px;
+    margin-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
 
 .skill {
     background-image: url(/images/Skills.png);
-    height: 550px;
+
 }
 
 .logo__textS {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
     font-size: 50px;
     color: #12f7d6;
     height: 75px;
@@ -253,6 +278,7 @@ ul {
     flex-direction: column;
     align-items: center;
     height: 75px;
+    color: #a8aab3;
 }
 
 .web__container {
@@ -341,11 +367,11 @@ ul {
     justify-content: space-around;
     padding: 70px;
     margin: 0 240px;
+    padding-bottom: 100px;
 }
 
 .works {
     background-image: url(/images/Works.png);
-    height: 1050px;
 }
 
 .logo__textW {
@@ -354,12 +380,14 @@ ul {
     font-size: 50px;
     color: #12f7d6;
     height: 75px;
+    padding-top: 100px;
 }
 
 .below__the__works {
     display: flex;
     justify-content: center;
     height: 75px;
+    color: #a8aab3;
 }
 
 .works__view {
@@ -367,14 +395,15 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .works__textWV {
-    width: 100%;
+    height: 35px;
     text-align: center;
     font-size: 25px;
     transition: 0.3s ease-in-out;
-    height: 60px;
+    border-bottom: solid 3px #ffffff;
 }
 
 .works__textWV:hover {
@@ -383,11 +412,11 @@ ul {
 
 .works__img {
     width: 750px;
+    padding-top: 50px;
 }
 
 .blogs {
     background-color: #292f36;
-    height: 550px;
 }
 
 .logo__textB {
@@ -395,17 +424,29 @@ ul {
     justify-content: center;
     font-size: 50px;
     height: 75px;
+    padding-top: 100px;
     color: #12f7d6;
 }
 
 .below__the__blogs {
     display: flex;
     justify-content: center;
+    width: 100%;
     height: 75px;
+    border-bottom: solid 3px #43454d;
+    color: #a8aab3;
 }
 
 .blogs__view {
     display: flex;
+    padding-bottom: 50px;
+    border-bottom: solid 3px #43454d;
+}
+
+.blogs__img {
+    display: flex;
+    padding-left: 100px;
+    margin-top: 50px;
 }
 
 .blogs__read {
@@ -414,12 +455,21 @@ ul {
     align-items: flex-start;
     flex-direction: column;
     margin: 0 50px;
+    padding-right: 50px;
 }
 
 .blogs__web {
     display: flex;
     font-size: 50px;
     color: #12f7d6;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.blogs__dev {
+    display: flex;
+    margin-bottom: 20px;
+    color: #a8aab3;
 }
 
 .blogs__textBW {
@@ -445,7 +495,7 @@ ul {
     padding: 4px 8px;
     background-color: #43454d;
     border-radius: 16px;
-    margin: 0 20px;
+    margin-right: 20px;
 }
 
 .blogs__text__stats {
@@ -465,12 +515,34 @@ ul {
     justify-content: space-around;
     width: 30%;
     margin: 0 auto;
-    padding: 25px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.button__BVS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 56px;
+    padding: 16px 32px;
+    background-color: #292f36;
+    border-width: 2px;
+    border-color: #12f7d6;
+    color: #ffffff;
+    border-style: solid;
+    border-radius: 32px;
+    transition: 0.3s ease-in-out;
+}
+
+.button__BVS:hover {
+    transform: scale(0.98);
+    background-color: #12f7d6;
+    color: #000000;
 }
 
 .contact {
     background-color: #1b1f23;
-    height: 600px;
 }
 
 .logo__textC {
@@ -478,6 +550,7 @@ ul {
     justify-content: center;
     font-size: 50px;
     height: 75px;
+    padding-top: 100px;
     color: #12f7d6;
 }
 
@@ -485,6 +558,7 @@ ul {
     display: flex;
     justify-content: center;
     height: 75px;
+    color: #a8aab3;
 }
 
 .send {
@@ -578,6 +652,7 @@ ul {
 .contact__send__message {
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .button__send {
